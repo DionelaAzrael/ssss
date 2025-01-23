@@ -61,7 +61,7 @@ end)
 
 local Slider = MainTab:CreateSlider({
    Name = "Isda",
-   Range = {0, 100000000000000000000000000000000000},
+   Range = {0, 100000},
    Increment = 1,
    Suffix = "Bananas",
    CurrentValue = 500,
