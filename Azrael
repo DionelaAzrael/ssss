@@ -61,7 +61,7 @@ end)
 
 local Slider = MainTab:CreateSlider({
    Name = "Isda",
-   Range = {0, 100000},
+   Range = {0, 1500},
    Increment = 1,
    Suffix = "Domain Radius",
    CurrentValue = 2,
