@@ -123,3 +123,10 @@ local Button = MainTab:CreateButton({
 		SunnySky:Clone().Parent = Lighting
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Animation GUI",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/BeemTZy/Motiona/refs/heads/main/source.lua"))()
+   end,
+})
