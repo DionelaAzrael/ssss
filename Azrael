@@ -278,5 +278,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%
 local AntiKupalTab = Window:CreateTab("Anti Kupal", nil) -- Title, Image
 local Section = AntiKupalTab:CreateSection("Opps")
 
-
+local Button = AntiKupalTab:CreateButton({
+   Name = "Anti Fling",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/Linux6699/DaHubRevival/main/AntiFling.lua'))()
+   end,
+})
 
