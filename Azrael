@@ -283,7 +283,7 @@ local Button = AntiKupalTab:CreateButton({
    Callback = function()
    loadstring(game:HttpGet('https://raw.githubusercontent.com/Linux6699/DaHubRevival/main/AntiFling.lua'))()
    end,
-
+})
 local Input = AntiKupalTab:CreateInput({
    Name = "Orbitlog",
    CurrentValue = "Players",
@@ -320,5 +320,3 @@ end)
 
    end,
 })
-})
-
