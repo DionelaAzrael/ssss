@@ -135,7 +135,7 @@ local MiscTab = Window:CreateTab("Misc", nil) -- Title, Image
 local MiscSection = MiscTab:CreateSection("Misc")
 
 local Button = MiscTab:CreateButton({
-   Name = "Button Example",
+   Name = "No Fog",
    Callback = function()
    --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
