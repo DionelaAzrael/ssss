@@ -59,41 +59,6 @@ end)
    end,
 })
 
-local Slider = MainTab:CreateSlider({
-   Name = "Isda",
-   Range = {0, 1500},
-   Increment = 1,
-   Suffix = "Domain Radius",
-   CurrentValue = 2,
-   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-   Callback = function(Value)
-        --[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
--- leave a like pls
-
-
-_G.HeadSize = (Value)
-_G.Disabled = true
- 
-game:GetService('RunService').RenderStepped:connect(function()
-if _G.Disabled then
-for i,v in next, game:GetService('Players'):GetPlayers() do
-if v.Name ~= game:GetService('Players').LocalPlayer.Name then
-pcall(function()
-v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
-v.Character.HumanoidRootPart.Transparency = 100
-v.Character.HumanoidRootPart.BrickColor = BrickColor.new("nil")
-v.Character.HumanoidRootPart.Material = "nil"
-v.Character.HumanoidRootPart.CanCollide = false
-end)
-end
-end
-end
-end)
-   end,
-})
-
 local Button = MainTab:CreateButton({
    Name = "Mag lulu",
    Callback = function()
@@ -281,9 +246,9 @@ for i,v in next, game:GetService('Players'):GetPlayers() do
 if v.Name ~= game:GetService('Players').LocalPlayer.Name then
 pcall(function()
 v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
-v.Character.HumanoidRootPart.Transparency = 0.7
-v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue")
-v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.Transparency = 100
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("nil")
+v.Character.HumanoidRootPart.Material = "nil"
 v.Character.HumanoidRootPart.CanCollide = false
 end)
 end
