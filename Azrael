@@ -252,15 +252,9 @@ _G.FullBrightEnabled = not _G.FullBrightEnabled
 local Button = MiscTab:CreateButton({
    Name = "No Rain(fixing)",
    Callback = function()
-   ReplicatedStorage.Season.Value = "Sunny"
-		ReplicatedStorage.Sound.Rain:Stop()
-
 		local RainySky = Lighting:FindFirstChild("RainySky")
 		if RainySky then
 			RainySky:Remove()
 		end
-
-		local SunnySky = MaterialService:FindFirstChild("Sky")
-		SunnySky:Clone().Parent = Lighting
    end,
 })
