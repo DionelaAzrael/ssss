@@ -110,17 +110,8 @@ local Button = MainTab:CreateButton({
 
 local Button = MainTab:CreateButton({
    Name = "No Rain",
-   Callback = function(self)
+   Callback = function()
         	ReplicatedStorage.Season.Value = "Sunny"
-		ReplicatedStorage.Sound.Rain:Stop()
-
-		local RainySky = Lighting:FindFirstChild("RainySky")
-		if RainySky then
-			RainySky:Remove()
-		end
-
-		local SunnySky = MaterialService:FindFirstChild("Sky")
-		SunnySky:Clone().Parent = Lighting
    end,
 })
 
