@@ -110,7 +110,7 @@ local Button = MainTab:CreateButton({
 
 local Button = MainTab:CreateButton({
    Name = "No Rain",
-   Callback = function()
+   Callback = function(self)
         	ReplicatedStorage.Season.Value = "Sunny"
 		ReplicatedStorage.Sound.Rain:Stop()
 
