@@ -274,3 +274,9 @@ local Button = MiscTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
    end,
 })
+
+local AntiKupalTab = Window:CreateTab("Anti Kupal", nil) -- Title, Image
+local Section = AntiKupalTab:CreateSection("Opps")
+
+
+
