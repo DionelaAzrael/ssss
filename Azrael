@@ -131,3 +131,5 @@ local Button = MainTab:CreateButton({
    end,
 })
 
+local MiscTab = Window:CreateTab("Misc", nil) -- Title, Image
+local MiscSection = Tab:CreateSection("Misc")
