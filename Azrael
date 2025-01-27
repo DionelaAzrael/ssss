@@ -111,7 +111,7 @@ local Button = MainTab:CreateButton({
 local Button = MainTab:CreateButton({
    Name = "No Rain",
    Callback = function(Value)
-        	ReplicatedStorage.Season.Value = "Sunny"
+        	game.Lighting.LightingSettingsRainy.RainySky.Remove
    end,
 })
 
@@ -251,5 +251,7 @@ end
 
 _G.FullBrightExecuted = true
 _G.FullBrightEnabled = not _G.FullBrightEnabled
+
+
    end,
 })
