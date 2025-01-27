@@ -292,3 +292,13 @@ end
 end)
    end,
 })
+
+local Button = MiscTab:CreateButton({
+   Name = "Btools",
+   Callback = function()
+	--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+   end,
+})
