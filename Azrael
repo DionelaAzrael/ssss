@@ -278,7 +278,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%
 local Input = MiscTab:CreateInput({
    Name = "Orbitlog",
    CurrentValue = "Players",
-   PlaceholderText = "Input Placeholder",
+   PlaceholderText = "Player Name",
    RemoveTextAfterFocusLost = true,
    Flag = "Input1",
    Callback = function(Text)
