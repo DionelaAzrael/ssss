@@ -225,7 +225,7 @@ local Button = MiscTab:CreateButton({
 })
 
 local Input = MiscTab:CreateInput({
-   Name = "Isda",
+   Name = "Fixed Isda",
    CurrentValue = "1",
    PlaceholderText = "1 - 1500",
    RemoveTextAfterFocusLost = true,
@@ -248,7 +248,7 @@ pcall(function()
 v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
 v.Character.HumanoidRootPart.Transparency = 100
 v.Character.HumanoidRootPart.BrickColor = BrickColor.new("nil")
-v.Character.HumanoidRootPart.Material = "nil"
+v.Character.HumanoidRootPart.Material = "Transparent"
 v.Character.HumanoidRootPart.CanCollide = false
 end)
 end
