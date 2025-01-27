@@ -264,3 +264,13 @@ local Button = MiscTab:CreateButton({
 loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
    end,
 })
+
+local Button = MiscTab:CreateButton({
+   Name = "Touch Fling (Need Chair)",
+   Callback = function()
+   --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+   end,
+})
