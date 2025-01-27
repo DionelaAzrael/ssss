@@ -133,3 +133,17 @@ local Button = MainTab:CreateButton({
 
 local MiscTab = Window:CreateTab("Misc", nil) -- Title, Image
 local MiscSection = Tab:CreateSection("Misc")
+
+local Button = MiscTab:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   --[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+game.Lighting.FogEnd = 100000
+game.Lighting.FogStart = 0
+game.Lighting.ClockTime = 14
+game.Lighting.Brightness = 2
+game.Lighting.GlobalShadows = false
+   end,
+})
