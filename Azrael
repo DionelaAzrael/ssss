@@ -218,7 +218,7 @@ local Button = MiscTab:CreateButton({
    Name = "No Rain(fixing)",
    Callback = function()
 	game.ReplicatedStorage.Season.Value = "Sunny"
-	game.Lighting.RainySky.Remove()
+	game.Lighting.Remove(RainySky)
    end,
 })
 
