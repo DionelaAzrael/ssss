@@ -259,7 +259,7 @@ local Button = MiscTab:CreateButton({
    end,
 })
 
-local Input = Tab:CreateInput({
+local Input = MiscTab:CreateInput({
    Name = "Isda",
    CurrentValue = "1",
    PlaceholderText = "1 - 1500",
