@@ -429,3 +429,14 @@ local Button = GalitSaBisayaTab:CreateButton({
    game.Workspace.Chairs2:Remove()
    end,
 })
+
+local Button = GalitSaBisayaTab:CreateButton({
+   Name = "Auto Piano",
+   Callback = function()
+   -- Modified by Risimiya
+-- Respect to real owners
+-- Thx for using it. I appreciate it
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Risimiya/PIANO-AUTOPLAY-FIXED/main/SCRIPTS",true))()
+
+   end,
+})
