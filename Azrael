@@ -415,3 +415,10 @@ getgenv().deletescript123456lol69 = function()
 end
    end,
 })
+
+local Button = GalitSaBisayaTab:CreateButton({
+   Name = "Walang Water Kill",
+   Callback = function()
+   game.Workspace.Round.Model:Remove()
+   end,
+})
