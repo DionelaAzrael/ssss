@@ -278,7 +278,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%
 })
 
 local Button = MiscTab:CreateButton({
-   Name = "Btools",
+   Name = "Anti Fling",
    Callback = function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/Linux6699/DaHubRevival/main/AntiFling.lua'))()
    end,
