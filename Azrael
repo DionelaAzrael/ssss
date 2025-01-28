@@ -422,3 +422,10 @@ local Button = GalitSaBisayaTab:CreateButton({
    game.Workspace.Round.Model:Remove()
    end,
 })
+
+local Button = GalitSaBisayaTab:CreateButton({
+   Name = "Remove Chairs (Pag nababadtrip)",
+   Callback = function()
+   game.Workspace.Chairs2:Remove()
+   end,
+})
